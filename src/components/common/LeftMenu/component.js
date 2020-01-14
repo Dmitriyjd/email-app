@@ -4,7 +4,7 @@ import './styles.scss';
 class LeftMenu extends PureComponent {
   render() {
     return (
-      <div/>
+      <div />
     )
   }
 }

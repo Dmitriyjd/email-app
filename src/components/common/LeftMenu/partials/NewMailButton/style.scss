@@ -1,0 +1,16 @@
+.new-mail-button {
+  height: 45px;
+  width: 210px;
+  background: #01caa0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .new-mail-button__text {
+    color: #f6fafe;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+}
