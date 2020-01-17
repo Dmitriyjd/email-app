@@ -1,28 +1,43 @@
 .menu-item {
   width: 100%;
   height: 40px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background: transparent;
-  padding: 0 3px;
+  cursor: pointer;
 
-  .menu-item__name {
-    height: 11px;
-    font-size: 16px;
-    font-weight: 400;
+  .menu-item__content-wrapper {
+    display: flex;
+    align-items: center;
+
+    .menu-item__icon {
+      height: 20px;
+      margin-right: 12px;
+    }
+
+    .menu-item__name {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 10px;
+    }
   }
 
   .menu-item__number-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: flex-end;
     width: 24px;
     height: 24px;
     border-radius: 4px;
     background: #2f364a;
 
     .menu-item__number {
+      color: #ffffff;
       font-size: 12px;
       font-weight: 400;
     }
